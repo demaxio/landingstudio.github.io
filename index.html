@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Пример Bootstrap Лэндинга</title>
+	 <!-- add bootstrap css file -->
+
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <link href="js/fancybox/dist/jquery.fancybox.min.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="css/main.css">
+      <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+<style>
+.thumb img {
+            -webkit-filter: grayscale(0);
+            filter: none;
+            border-radius: 5px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 5px;
+        }
+
+        .thumb img:hover {
+            -webkit-filter: grayscale(1);
+            filter: grayscale(1);
+        }
+
+        .thumb {
+            padding: 5px;
+        } 
+    </style>
+</head>
+<body>
+  <!-- navbar -->
+
+  <nav class="navbar navbar-expand-lg fixed-top ">
+	  <a class="navbar-brand" href="#">Максико</a>
+
+	  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-4">
+	      
+	      <li class="nav-item">
+	        <a class="nav-link" data-value="about" href="#">О нас</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link " data-value="portfolio" href="#">Портфолио</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link " data-value="team" href="#">Команда</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link " data-value="contact" href="#">Напиши нам</a>
+	      </li>
+	    </ul>
+	  </div>
+</nav>
+
+<!-- header -->
+<header class="header ">
+  <div class="overlay"></div>
+   <div class="container">
+   	  <div class="description ">
+  	<h1 class="text-center"> <font color="red">Добро пожаловать на сайт фирмы "Максико"!</font></h1>
+  	<br>
+  		<h4 class = "text-center"> У нас вы можете заказать сайт за самую низкую цену из всех существующих вариантов!</h4>
+  		<center><button class="btn btn-outline-secondary btn-lg">Написать нам</button></center>
+  </div>
+   </div>
+  
+</header>
+
+<!-- about section -->
+<div class="about" id="about">
+	<div class="container">
+		<br>
+	  <h1 class="text-center">Обо мне</h1>
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="images/team-0.jpg" class="img-fluid">
+				<span class="text-justify">Главный дизайнер</span>
+			</div>
+			<div class="col-lg-8 col-md-8 col-sm-12 desc">
+			  
+				<h3>М. Дронов</h3>
+				<p>
+				   Начинающий веб дизаинер и верстальщик.
+				   Занимаюсь созданием сайтов с 2016 года. 
+				   <br>Творческий деятель. 
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- portfolio -->
+<div class="portfolio" id="portfolio">
+     <h1 class="text-center">Портофолио</h1>
+	<div class="container">
+<div class="row">
+        <div class="col-md-4 col-sm-4 col-xs-6 thumb">
+            <a data-fancybox="gallery" href="images/portfolio/1.png">
+                <img class="img-responsive" src="images/portfolio/1.png" alt="" title="Resturant & Pizza">
+
+            </a>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-6 thumb">
+            <a data-fancybox="gallery" href="images/portfolio/2.png">
+                <img class="img-responsive" src="images/portfolio/2.png" alt="" title="Funnel Bear">
+            </a>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-6 thumb">
+            <a data-fancybox="gallery" href="images/portfolio/3.png">
+                <img class="img-responsive" src="images/portfolio/3.png" alt="" title="PerЛайф">
+            </a>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-6 thumb">
+            <a data-fancybox="gallery" href="images/portfolio/4.png">
+                <img class="img-responsive" src="images/portfolio/4.png" alt=""title="Йога студия Вишну">
+            </a>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-6 thumb">
+            <a data-fancybox="gallery" href="images/portfolio/5.jpg">
+                <img class="img-responsive" src="images/portfolio/5.jpg" alt=""title="LPGenerator">
+            </a>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-6 thumb">
+            <a data-fancybox="gallery" href="images/portfolio/6.png">
+                <img class="img-responsive" src="images/portfolio/6.png" alt=""title="Slide">
+            </a>
+        </div>
+	</div>
+</div>
+
+
+<!-- Posts section -->
+
+<!-- Team section -->
+<div class="team" id="team">
+	<div class="container">
+	   <h1 class="text-center">Наша команда</h1>
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="images/team-5.jpg" class="img-fluid" alt="team"title="Игорь">
+				<span class="text-muted">Верстальщик</span>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="images/team-3.jpg" class="img-fluid" alt="team"title="Костя">
+				<span class="text-muted">Сис. админ</span>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="images/team-2.jpg" class="img-fluid" alt="team"title="Люба">
+				<span class="text-muted">Front End Разработчик</span>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="images/team-4.jpg" class="img-fluid" alt="team"title="Вика">
+				<span class="text-muted">Дизайнер</span>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Contact form -->
+<div class="contact-form" id="contact">
+	<div class="container">
+	<form>
+  <h1 class="text-center"> Оставьте заявку</h1>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Ваша почта</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="x@mail.ru">
+    <small id="emailHelp" class="form-text text-muted">Мы обещаем не спамить</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPhone1">Телефон</label>
+    <input type="phone" class="form-control" id="exampleInputPhone" placeholder="8(800)-000-00-00">
+  </div>
+  <button type="submit" class="btn btn-primary">Подтвердить</button>
+</form>
+	</div>
+</div>
+<!-- add Javasscript file from js file -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src='js/main.js'></script>
+<script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
+</body>
+</html>
